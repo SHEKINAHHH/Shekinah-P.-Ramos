@@ -36,9 +36,9 @@
     background-size: cover;
 }
 
-.h1 {
+h1 {
     font-size: 45px;
-    color: rgb(72, 5, 134);
+    color: rgb(192, 18, 18);
     text-transform: uppercase;
     font-weight: 800;
 }
