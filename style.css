@@ -1,0 +1,49 @@
+.navbar {
+    background-color:rgb(83, 0, 0);
+    height: 10vh;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.btn-hello {
+    background-color: rgb(185, 146, 37);
+    border: 2px solid black;
+    border-radius: 60px;
+    transition: all ease-in 0.5s;
+}
+
+.btn-hello:hover {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 255, 242);
+}
+
+.hatdog {
+    width: 8%;
+}
+
+.banner {
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10, 106, 185, 0.37) 35%, rgba(0, 213, 255, 0.212) 100%), url(sky.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+
+.h1 {
+    font-size: 45px;
+    color: rgb(72, 5, 134);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner p {
+    color: aliceblue;
+    font-size: 20px;
+}
