@@ -36,7 +36,7 @@
     background-size: cover;
 }
 
-h1 {
+.h1 {
     font-size: 45px;
     color: rgb(192, 18, 18);
     text-transform: uppercase;
@@ -46,4 +46,58 @@ h1 {
 .banner p {
     color: aliceblue;
     font-size: 20px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#about h2, #about h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#about h3 {
+    color: blueviolet;
+}
+
+#about img {
+    border: 7px solid white;
+    box-shadow: 0 0 45px 0 cornflowerblue; 
+    border-radius: 25px;
+}
+
+.card-img-top {
+    width: 40%;
+}
+
+.card {
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border: 4px solid #FFF;
+    box-shadow: 0 0 15px 0 cornflowerblue;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.card:hover {
+    background-color: rgba(0, 183, 255, 0.541);
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0)
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    color: rgb(0, 0, 0);
+}
+
+#services h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 55px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#services {
+    background: #7a90f3d0;
 }
